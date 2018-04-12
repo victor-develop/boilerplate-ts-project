@@ -13,7 +13,7 @@ export interface IServer {
 
 const logger = console;
 
-export const staticDir = path.join('src','public');
+export const staticDir = path.join('dist','public');
 
 export const startServer: (port: Port) => IServer = (port) => {
   const app = express();
